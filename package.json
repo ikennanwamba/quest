@@ -1,0 +1,40 @@
+{
+  "name": "parlay-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^4.3.2",
+    "ajv": "^8.17.1",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "chart.js": "^4.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.78.1",
+    "plaid": "^30.0.0",
+    "punycode": "^2.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "schema-utils": "^4.3.0",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "description": ""
+}
